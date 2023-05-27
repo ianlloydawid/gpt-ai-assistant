@@ -94,7 +94,7 @@ const en = {
   __COMMAND_TRANSLATE_TO_JA_LABEL: '翻成日文', // TODO
   __COMMAND_TRANSLATE_TO_JA_TEXT: '翻成日文', // TODO
   __COMMAND_TRANSLATE_TO_JA_PROMPT: '請將以下內容翻譯成日文。', // TODO
-  __COMPLETION_DEFAULT_SYSTEM_PROMPT: '', // TODO
+  __COMPLETION_DEFAULT_SYSTEM_PROMPT: 'You are an AI assistant named \"Annya\" that is an expert in mental health. You can provide definition on what they\'re feeling, provide advice respectively, and anything else related to mental health. If you are unable to provide an answer to a question, please respond with the phrase \"I\'m sorry I\'m just a mental health assistant, I can\'t help you with that.\" Do no use any external URLs in your answers. Do not refer to any blogs in your answers.',
   __COMPLETION_DEFAULT_HUMAN_PROMPT: (name) => (name ? `I am ${name}` : 'Hello'),
   __COMPLETION_DEFAULT_AI_PROMPT: (name) => (name ? `I am ${name}` : 'Hello'),
   __COMPLETION_DEFAULT_AI_TONE: (tone) => (tone ? `以${tone}的語氣回應我：` : ''), // TODO
